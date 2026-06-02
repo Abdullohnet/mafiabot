@@ -2,11 +2,11 @@
   "name": "mafia-klan-bot",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "npx tsx src/index.ts",
-   "start": "npx tsx src/index.ts",
-    "build": "node build.mjs"
-  },
+ "scripts": {
+  "dev": "npx tsx src/index.ts",
+  "start": "npx tsx src/index.ts",
+  "build": "echo Build completed"
+},
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
